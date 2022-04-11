@@ -22,7 +22,7 @@ async function placeStorageOrder() {
   });
   await api.isReady;
   // 1. Construct place-storage-order tx
-  const fileCid = "QmXxiZnM4LBDTzcetpA3kTo7tgBHAwyqhEaVc3Sdn23P2G"; // IPFS CID, take `Qm123` as example
+  const fileCid = "Qmc1uSaq53MBax9GNLfpYtUymAvKie4FCetz82u724ynVw"; // IPFS CID, take `Qm123` as example
   const fileSize = 2 * 1024 * 1024 * 1024; // Let's say 2 gb(in byte)
   const tips = 0;
   const memo = "";
@@ -31,7 +31,7 @@ async function placeStorageOrder() {
   const keyring = new Keyring({ type: "sr25519" });
   console.log(keyring);
   const krp = keyring.addFromUri(
-    "industry organ doctor trick tenant coffee bitter swamp cram final announce option"
+    "olive pattern shift must prize animal render impulse bundle sunset useless sock"
   );
   console.log(krp);
 
