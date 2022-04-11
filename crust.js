@@ -22,7 +22,7 @@ async function placeStorageOrder() {
   });
   await api.isReady;
   // 1. Construct place-storage-order tx
-  const fileCid = "Qmc1uSaq53MBax9GNLfpYtUymAvKie4FCetz82u724ynVw"; // IPFS CID, take `Qm123` as example
+  const fileCid = "QmeLo4rdp6vYYuiRyL45qhPvjQRSoLMHUWqd8SDC2qq4mH"; // IPFS CID, take `Qm123` as example
   const fileSize = 2 * 1024 * 1024 * 1024; // Let's say 2 gb(in byte)
   const tips = 0;
   const memo = "";
